@@ -3,7 +3,7 @@ import appListData from '../../data/app-list.json';
 
 function AppList() {
   return (
-    <div className='flex flex-wrap px-12 py-8 border border-gray-200 mt-6 bg-white rounded-sm '>
+    <div className='flex flex-wrap px-12 py-8 border border-gray-200 mt-6 bg-white rounded-md '>
       {appListData.map((app) => {
         return (
           <div
@@ -18,7 +18,7 @@ function AppList() {
             {app.label && (
               <span
                 className='text-white bg-redColor 
-              px-1 absolute -top-3 right-4 rounded-md after:w-4 
+              px-1 absolute italic text-[0.8rem] -top-3 right-4 rounded-md after:w-4 
               after:h-4 after:absolute 
               after:border-8 after:border-t-redColor after:border-b-transparent
               after:border-l-transparent after:border-r-transparent after:left-1 after:-bottom-3'

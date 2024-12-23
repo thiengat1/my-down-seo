@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "录屏君",
+    "category": "投屏录屏",
+    "star": 5
+  },
+  {
+    "id": 2,
+    "name": "万能格式工厂",
+    "category": "影音转换",
+    "star": 5
+  },
+  {
+    "id": 3,
+    "name": "幂果PDF转换",
+    "category": "PDF软件",
+    "star": 5
+  },
+  {
+    "id": 4,
+    "name": "海鸟电脑无忧",
+    "category": "系统优化",
+    "star": 5
+  },
+  {
+    "id": 5,
+    "name": "万彩手影大师",
+    "category": "动画制作",
+    "star": 5
+  },
+  {
+    "id": 6,
+    "name": "万彩字影大师",
+    "category": "视频编辑",
+    "star": 5
+  },
+  {
+    "id": 7,
+    "name": "酷狗音乐电脑",
+    "category": "音乐软件",
+    "star": 5
+  },
+  {
+    "id": 8,
+    "name": "酷狗音乐最新",
+    "category": "音乐软件",
+    "star": 5
+  },
+  {
+    "id": 9,
+    "name": "酷狗音乐",
+    "category": "音乐软件",
+    "star": 5
+  },
+  {
+    "id": 10,
+    "name": "字狐AIPPT",
+    "category": "办公工具",
+    "star": 3
+  },
+  {
+    "id": 11,
+    "name": "金舟鼠标连点器",
+    "category": "键鼠工具",
+    "star": 4
+  },
+  {
+    "id": 12,
+    "name": "联想企业网盘",
+    "category": "网络共享",
+    "star": 3
+  },
+  {
+    "id": 13,
+    "name": "Honeycam",
+    "category": "动画制作",
+    "star": 5
+  },
+  {
+    "id": 14,
+    "name": "Balabolka",
+    "category": "其它媒体",
+    "star": 3
+  },
+  {
+    "id": 15,
+    "name": "嗨格式数据恢",
+    "category": "数据恢复",
+    "star": 5
+  },
+  {
+    "id": 16,
+    "name": "幕布笔记",
+    "category": "办公工具",
+    "star": 5
+  },
+  {
+    "id": 17,
+    "name": "幕布",
+    "category": "办公工具",
+    "star": 5
+  },
+  {
+    "id": 18,
+    "name": "为知笔记",
+    "category": "办公工具",
+    "star": 5
+  }
+]

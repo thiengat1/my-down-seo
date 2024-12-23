@@ -14,6 +14,11 @@ export default {
         redColor: 'red',
         blueColor: '#008ded',
       },
+      backgroundImage: {
+        bgApp1: "url('/images/bg1.png')",
+        bgApp2: "url('/images/bg2.png')",
+        bgApp3: "url('/images/bg3.png')",
+      },
     },
   },
   plugins: [],
