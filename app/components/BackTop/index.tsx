@@ -31,15 +31,14 @@ export default function BackTop(props: IBackTopProps) {
       window.removeEventListener('scroll', handleDisplayBackTop);
     };
   }, []);
-
+  const CustomAnimatedDiv = ({ children, ...props }: any) => {
+    return <animated.div {...props}>{children}</animated.div>;
+  };
   if (isVisible)
     return (
-      <animated.div
+      <CustomAnimatedDiv
         style={animation}
-        className='fixed 
-    bottom-12 right-12 w-10 h-10 
-    lg:w-12 lg:h-12 rounded-full  
-    border-2 border-slate-400  border-solid hover:opacity-70 cursor-pointer'
+        className='fixed bottom-12 right-12 w-10 h-10 lg:w-12 lg:h-12 rounded-full border-2 border-slate-400  border-solid hover:opacity-70 cursor-pointer'
         onClick={scrollToTop}
       >
         <img
@@ -47,7 +46,7 @@ export default function BackTop(props: IBackTopProps) {
           alt='back-to-top'
           className='object-contain w-full h-full'
         />
-      </animated.div>
+      </CustomAnimatedDiv>
     );
   return null;
 }
