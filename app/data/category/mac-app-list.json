@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "TeamViewer",
+    "category": "Mac网络工具",
+    "star": 5
+  },
+  {
+    "id": 2,
+    "name": "贝锐蒲公英",
+    "category": "Mac网络工具",
+    "star": 3
+  },
+  {
+    "id": 3,
+    "name": "WPS协作Mac",
+    "category": "Mac办公",
+    "star": 4
+  },
+  {
+    "id": 4,
+    "name": "为知笔记Mac",
+    "category": "Mac办公",
+    "star": 5
+  },
+  {
+    "id": 5,
+    "name": "阿里云盘Mac",
+    "category": "Mac云存储",
+    "star": 3
+  },
+  {
+    "id": 6,
+    "name": "坚果云Mac版",
+    "category": "Mac云存储",
+    "star": 5
+  },
+  {
+    "id": 7,
+    "name": "FileZilla Mac",
+    "category": "FTP工具",
+    "star": 3
+  },
+  {
+    "id": 8,
+    "name": "FileZilla Mac",
+    "category": "FTP工具",
+    "star": 3
+  },
+  {
+    "id": 9,
+    "name": "芦笋提词器",
+    "category": "Mac录屏",
+    "star": 4
+  },
+  {
+    "id": 10,
+    "name": "Seafile Mac",
+    "category": "Mac图片处理",
+    "star": 3
+  },
+  {
+    "id": 11,
+    "name": "ExifTool Mac",
+    "category": "Mac图片处理",
+    "star": 4
+  },
+  {
+    "id": 12,
+    "name": "美图云修Air",
+    "category": "Mac图片处理",
+    "star": 3
+  },
+  {
+    "id": 13,
+    "name": "美图云修Pro",
+    "category": "Mac图片处理",
+    "star": 3
+  },
+  {
+    "id": 14,
+    "name": "贝锐洋葱头浏",
+    "category": "Mac浏览器",
+    "star": 3
+  },
+  {
+    "id": 15,
+    "name": "360云盘同步",
+    "category": "Mac上传下载",
+    "star": 5
+  },
+  {
+    "id": 16,
+    "name": "360云盘Mac",
+    "category": "ac上传下载",
+    "star": 5
+  },
+  {
+    "id": 17,
+    "name": "有道云笔记",
+    "category": "Mac办公",
+    "star": 5
+  },
+  {
+    "id": 18,
+    "name": "影刀MAC版",
+    "category": "Mac办公",
+    "star": 5
+  }
+]

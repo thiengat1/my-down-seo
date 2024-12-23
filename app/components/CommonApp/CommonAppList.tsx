@@ -3,7 +3,7 @@ import commonAppList from '../../data/common-app/common-app-list.json';
 
 function CommonAppList() {
   return (
-    <div className='grid grid-cols-4 gap-4 w-[72%]'>
+    <div className='grid grid-cols-4 gap-4 w-[72%] bg-white'>
       {commonAppList.map((item) => {
         return (
           <div

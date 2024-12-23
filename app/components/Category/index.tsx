@@ -1,9 +1,9 @@
 import React from 'react';
 import StarVote from '../StarVote';
 
-function Category({ title, sort, menus, appList }: any) {
+function Category({ title, sort, menus, appList, imageCategory }: any) {
   return (
-    <div className='border border-gray-200 rounded-md p-4'>
+    <div className='border border-gray-200 rounded-md p-4 mb-6 bg-white'>
       <div className='border-b border-b-gray-200 pb-6'>
         <div className='flex items-center justify-between'>
           <div className='flex items-center gap-12'>
@@ -42,7 +42,7 @@ function Category({ title, sort, menus, appList }: any) {
               className='flex items-center gap-2 border-b border-b-gray-200 pb-8'
             >
               <img
-                src={`/images/computer-app/app${app.id}.jpg`}
+                src={`/images/${imageCategory}/app${app.id}.jpg`}
                 className=' rounded-xl w-[50px] cursor-pointer'
               />
               <div className='flex flex-col gap-1'>

@@ -7,6 +7,12 @@ import CommonApp from './components/CommonApp';
 import Category from './components/Category';
 import computerAppMenu from './data/category/computer-app-menu.json';
 import computerAppList from './data/category/computer-app-list.json';
+import computerGameMenu from './data/category/computer-game-menu.json';
+import computerGameList from './data/category/computer-game-list.json';
+import AppStore from './components/AppStore';
+import macAppMenu from './data/category/mac-app-menu.json';
+import macAppList from './data/category/mac-app-list.json';
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
@@ -25,15 +31,27 @@ export default function Home() {
           sort={1}
           menus={computerAppMenu}
           appList={computerAppList}
+          imageCategory='computer-app'
         />
         <Category
-          title='电脑软件'
-          sort={1}
-          menus={computerAppMenu}
-          appList={computerAppList}
+          title='电脑游戏'
+          sort={2}
+          menus={computerGameMenu}
+          appList={computerGameList}
+          imageCategory='computer-game'
         />
         <Banner image='/images/banner/banner4.jpg' />
+        <AppStore />
+        <Banner image='/images/banner/banner5.jpg' />
+        <Category
+          title='Mac软件'
+          sort={4}
+          menus={macAppMenu}
+          appList={macAppList}
+          imageCategory='mac-app'
+        />
       </main>
+      <Footer />
     </div>
   );
 }
