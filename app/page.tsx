@@ -13,6 +13,8 @@ import AppStore from './components/AppStore';
 import macAppMenu from './data/category/mac-app-menu.json';
 import macAppList from './data/category/mac-app-list.json';
 import Footer from './components/Footer';
+import BackTop from './components/BackTop';
+import RightMenu from './components/RightMenu';
 
 export default function Home() {
   return (
@@ -52,6 +54,8 @@ export default function Home() {
         />
       </main>
       <Footer />
+      <BackTop />
+      <RightMenu />
     </div>
   );
 }
