@@ -61,7 +61,7 @@ function AppStore() {
                         <div className='text-[1rem] text-gray-700 cursor-pointer hover:text-blueColor'>
                           {child.name}
                         </div>
-                        <div className='text-[0.8rem] text-gray-500'>
+                        <div className='text-[0.8rem] text-gray-500 hidden sm:block'>
                           创建时间：{child.createdAt}
                         </div>
                       </div>
