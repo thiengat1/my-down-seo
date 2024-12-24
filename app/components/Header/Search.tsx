@@ -29,15 +29,15 @@ function Search() {
         src='/images/mainLogo.png'
         alt='main logo'
       />
-      <div className='flex'>
-        <div className='flex border border-gray-300 rounded-tl-md rounded-bl-md'>
+      <div className='flex w-full md:w-auto '>
+        <div className='flex border border-gray-300 rounded-tl-md rounded-bl-md w-full md:w-auto'>
           <img src='/images/searchBox.png' />
           <input
-            className='px-2 outline-none w-full md:w-[290px]'
+            className='px-2 flex-1 outline-none w-full md:w-[290px]'
             placeholder={searchPlaceholder}
           />
         </div>
-        <button className='cursor-pointer bg-blueColor px-8 text-white font-bold rounded-tr-md rounded-br-md'>
+        <button className='cursor-pointer w-[100px] bg-blueColor px-8 text-white font-bold rounded-tr-md rounded-br-md'>
           搜索
         </button>
       </div>
