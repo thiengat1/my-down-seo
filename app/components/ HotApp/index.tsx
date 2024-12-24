@@ -10,7 +10,7 @@ function HotApp() {
   }
   return (
     <div className='mt-6 flex gap-4 flex-col md:flex-row'>
-      <div className='flex basis-1/2 flex-col gap-4 border border-gray-200 p-4 rounded-md'>
+      <div className='flex basis-1/2 flex-col gap-4 border border-gray-200 p-4 rounded-md bg-white'>
         <div className='flex items-center justify-center gap-4'>
           <img src='/images/like.png' />
           <h2 className='text-[22px] font-bold'>每周佳软推荐</h2>
@@ -43,7 +43,7 @@ function HotApp() {
         </div>
       </div>
 
-      <div className='basis-1/2 border border-gray-200 p-4 rounded-md '>
+      <div className='basis-1/2 border border-gray-200 rounded-md bg-white'>
         <div className='flex flex-col gap-4'>
           <div className='flex items-center justify-center gap-4'>
             <img src='/images/star.png' />
