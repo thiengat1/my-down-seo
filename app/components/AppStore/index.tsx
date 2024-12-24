@@ -46,7 +46,7 @@ function AppStore() {
         {appStore.map((slide) => {
           return (
             <SwiperSlide key={slide.id}>
-              <div className='grid grid-cols-3 gap-6'>
+              <div className='grid grid-cols-2 md:grid-cols-3 gap-6'>
                 {slide.children.map((child) => {
                   return (
                     <div key={child.id} className='flex flex-col gap-1 '>

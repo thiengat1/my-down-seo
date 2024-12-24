@@ -3,12 +3,12 @@ import appListData from '../../data/app-list.json';
 
 function AppList() {
   return (
-    <div className='flex flex-wrap px-12 py-8 border border-gray-200 mt-6 bg-white rounded-md '>
+    <div className='grid grid-cols-3 xs:grid-cols-4 md:grid-cols-8 sm:grid-cols-6 xl:grid-cols-10 px-12 py-8 border border-gray-200 mt-6 bg-white rounded-md '>
       {appListData.map((app) => {
         return (
           <div
             key={app.id}
-            className='w-[10%] flex flex-col items-center gap-2 mb-2 cursor-pointer relative'
+            className='flex flex-col items-center gap-2 mb-2 cursor-pointer relative'
           >
             <img
               src={`/images/appList/item${app.id}.jpg`}

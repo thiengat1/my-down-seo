@@ -3,7 +3,7 @@ import topMenuData from '../../data/top-menu.json';
 
 function TopMenu() {
   return (
-    <div className='py-2 border-b border-gray-200'>
+    <div className='py-2 border-b border-gray-200 hidden xl:block'>
       <div className='max-w-[1200px] m-auto flex justify-end'>
         <div className='mr-10'>
           <a className='cursor-pointer text-redColor'>

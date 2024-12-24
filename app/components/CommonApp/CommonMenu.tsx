@@ -8,7 +8,7 @@ function CommonMenu() {
         <img src='/images/common.png' />
         <h1 className='text-2xl font-bold'>常用软件</h1>
       </div>
-      <div>
+      <div className='hidden md:block'>
         <ul className='flex gap-8 text-[16px] text-gray-500 font-bold'>
           {commonMenuData.map((item) => {
             return (

@@ -9,13 +9,13 @@ function HotApp() {
     setFavoriteAppStatus(value);
   }
   return (
-    <div className='mt-6 flex gap-4'>
+    <div className='mt-6 flex gap-4 flex-col md:flex-row'>
       <div className='flex basis-1/2 flex-col gap-4 border border-gray-200 p-4 rounded-md'>
         <div className='flex items-center justify-center gap-4'>
           <img src='/images/like.png' />
           <h2 className='text-[22px] font-bold'>每周佳软推荐</h2>
         </div>
-        <div className='grid grid-cols-3 gap-4 cursor-pointer'>
+        <div className='grid grid-cols-2 sm:grid-cols-3 gap-4 cursor-pointer'>
           {recommendApp.map((item) => {
             return (
               <div
@@ -49,7 +49,7 @@ function HotApp() {
             <img src='/images/star.png' />
             <h2 className='text-[22px] font-bold'>热门软件库</h2>
           </div>
-          <div className='grid grid-cols-2 gap-4'>
+          <div className='grid grid-cols-1 gap-4 md:grid-cols-2'>
             <div className=' cursor-pointer overflow-hidden rounded-md'>
               <img
                 src={`/images/hotApp/favorite${favoriteAppStatus}.jpg`}

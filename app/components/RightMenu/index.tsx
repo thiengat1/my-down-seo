@@ -2,7 +2,7 @@ import React from 'react';
 
 function RightMenu() {
   return (
-    <div className='fixed right-8 top-[50%] -translate-y-[50%] bg-white border border-gray-200 flex flex-col items-center justify-center gap-2'>
+    <div className='fixed right-8 top-[50%] -translate-y-[50%] bg-white border border-gray-200  flex-col items-center justify-center gap-2 hidden 2xl:block'>
       <div className='border-b border-b-gray-200 p-2 cursor-pointer hover:text-blueColor'>
         <img src='/images/right-icon1.png' />
         <span>软件收录</span>

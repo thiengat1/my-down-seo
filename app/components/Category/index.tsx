@@ -11,7 +11,7 @@ function Category({ title, sort, menus, appList, imageCategory }: any) {
               <img src={`/images/category${sort}.png`} />
               <div className='text-xl font-bold'>{title}</div>
             </div>
-            <div className='flex gap-4 text-gray-600'>
+            <div className='gap-4 text-gray-600 hidden md:flex'>
               {menus.map((menu: any) => {
                 return (
                   <div
@@ -24,7 +24,7 @@ function Category({ title, sort, menus, appList, imageCategory }: any) {
               })}
             </div>
           </div>
-          <div className='flex gap-4 font-bold text-gray-600 text-[16px]'>
+          <div className='gap-4 font-bold text-gray-600 text-[16px] hidden sm:flex'>
             <span className='cursor-pointer hover:text-blueColor'>
               最新软件
             </span>
@@ -34,7 +34,7 @@ function Category({ title, sort, menus, appList, imageCategory }: any) {
           </div>
         </div>
       </div>
-      <div className='grid grid-cols-6 gap-4 p-4'>
+      <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 xl:grid-cols-6 gap-4 p-4'>
         {appList.map((app: any) => {
           return (
             <div

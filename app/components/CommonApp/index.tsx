@@ -7,7 +7,7 @@ function CommonApp() {
   return (
     <div className='border border-gray-200 rounded-md p-4'>
       <CommonMenu />
-      <div className='flex mt-5 gap-4'>
+      <div className='flex mt-5 gap-4 flex-col md:flex-row'>
         <CommonAppList />
         <CommonDownload />
       </div>

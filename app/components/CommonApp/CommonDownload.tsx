@@ -7,7 +7,7 @@ function CommonDownload() {
   const [downLoadSelect, setDownloadSelect] = useState(1);
 
   return (
-    <div className='w-[28%] bg-white'>
+    <div className='w-full md:w-[28%] bg-white'>
       <div className='flex items-center gap-8 justify-center'>
         <img src='/images/download.png' />
         <h1 className='text-[18px] font-bold'>常用软件排行榜</h1>
