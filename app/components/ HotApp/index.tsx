@@ -43,7 +43,7 @@ function HotApp() {
         </div>
       </div>
 
-      <div className='basis-1/2 border border-gray-200 rounded-md bg-white'>
+      <div className='basis-1/2 border border-gray-200 rounded-md bg-white p-4'>
         <div className='flex flex-col gap-4'>
           <div className='flex items-center justify-center gap-4'>
             <img src='/images/star.png' />
