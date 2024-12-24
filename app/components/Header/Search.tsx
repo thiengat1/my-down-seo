@@ -37,7 +37,7 @@ function Search() {
             placeholder={searchPlaceholder}
           />
         </div>
-        <button className='cursor-pointer bg-blueColor px-8 text-white font-bold'>
+        <button className='cursor-pointer bg-blueColor px-8 text-white font-bold rounded-tr-md rounded-br-md'>
           搜索
         </button>
       </div>
