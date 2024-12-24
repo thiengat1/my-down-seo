@@ -18,7 +18,7 @@ function AppList() {
             {app.label && (
               <span
                 className='text-white bg-redColor 
-              px-1 absolute italic text-[0.8rem] -top-3 right-4 rounded-md after:w-4 
+              px-1 py-1 absolute italic text-[0.8rem] -top-3 right-4 rounded-md after:w-4 
               after:h-4 after:absolute 
               after:border-8 after:border-t-redColor after:border-b-transparent
               after:border-l-transparent after:border-r-transparent after:left-1 after:-bottom-3'
